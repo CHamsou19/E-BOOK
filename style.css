@@ -14,9 +14,9 @@ header {
 }
 
 .login-btn {
-    background: #846ca7;
+    background: #f035a2;
     color: rgb(255, 255, 255);
-    border: 2px solid#846ca7;
+    border: 2px solid#000000;
     border-radius: 50px;
     padding: 12px 40px;
     text-transform: uppercase;
@@ -26,9 +26,9 @@ header {
 }
 
 .register-btn {
-    background: #846ca7;
+    background: #1dde1d;
     color: rgb(255, 255, 255);
-    border: 2px solid#846ca7;
+    border: 2px solid#1174b2;
     border-radius: 50px;
     padding: 12px 40px;
     text-transform: uppercase;
@@ -55,6 +55,7 @@ button:hover {
     justify-content: space-between;
     margin: 10px 20px;
     padding: 30px;
+    position: fixed;
 }
 
 .socialmedia i {
@@ -68,4 +69,42 @@ button:hover {
     transition: all 0.5s;
     color: rgb(145, 192, 211);
 }
-Écrire à Houssem Atallah
+.box h1 {
+    text-align: start;
+    font-size: 30px;
+}
+
+#bookmoney {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px;
+    background-color: rgb(75, 54, 231) ;
+}
+
+
+
+#bookloi {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px;
+ background-color: firebrick;
+}
+
+
+
+.modele {
+    width: 290px;
+    height: 400px;
+}
+body{
+background-color: hotpink;
+}
+#tout{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: orange;
+}
